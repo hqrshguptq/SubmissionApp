@@ -34,8 +34,7 @@ const AppSidebar = () => {
       }}
     >
       <CSidebarBrand className="d-none d-md-flex" to="/">
-        <CIcon className="sidebar-brand-full" name="logo-negative" height={35} />
-        <CIcon className="sidebar-brand-narrow" name="sygnet" height={35} />
+        FINco
       </CSidebarBrand>
       <CSidebarNav>
         <SimpleBar>

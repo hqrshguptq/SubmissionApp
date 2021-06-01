@@ -34,32 +34,34 @@ const AppHeader = () => {
           <CIcon name="logo" height="48" alt="Logo" />
         </CHeaderBrand>
         <CHeaderNav className="d-none d-md-flex me-auto">
-          <CNavItem>
+          {/* <CNavItem>
             <CNavLink to="/dashboard" component={NavLink} activeClassName="active">
               Dashboard
             </CNavLink>
-          </CNavItem>
+          </CNavItem> */}
           <CNavItem>
-            <CNavLink href="#">Users</CNavLink>
+            <CNavLink href="#">Type to search..</CNavLink>
           </CNavItem>
-          <CNavItem>
+          {/* <CNavItem>
             <CNavLink href="#">Settings</CNavLink>
-          </CNavItem>
+          </CNavItem> */}
         </CHeaderNav>
         <CHeaderNav>
-          <CNavItem>
-            <CNavLink href="#">
-              <CIcon name="cil-bell" size="lg" />
-            </CNavLink>
-          </CNavItem>
           <CNavItem>
             <CNavLink href="#">
               <CIcon name="cil-list" size="lg" />
             </CNavLink>
           </CNavItem>
+
           <CNavItem>
             <CNavLink href="#">
               <CIcon name="cil-envelope-open" size="lg" />
+            </CNavLink>
+          </CNavItem>
+
+          <CNavItem>
+            <CNavLink href="#">
+              <CIcon name="cil-bell" size="lg" />
             </CNavLink>
           </CNavItem>
         </CHeaderNav>
@@ -67,10 +69,10 @@ const AppHeader = () => {
           <AppHeaderDropdown />
         </CHeaderNav>
       </CContainer>
-      <CHeaderDivider />
+      {/* <CHeaderDivider />
       <CContainer fluid>
         <AppBreadcrumb />
-      </CContainer>
+      </CContainer> */}
     </CHeader>
   )
 }
